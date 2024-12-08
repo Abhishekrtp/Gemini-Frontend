@@ -70,10 +70,22 @@
 
 @media (max-width: 600px) {
   .sidebar{
-    display: none;
+    background-color: #ffffff;
+    .new-chat{
+      display: none
+    }
+    .bottom-item{
+      display: none;
+    }
+
+
+
+    }
+   
+
     
+        
   }
 
 
   
-}
