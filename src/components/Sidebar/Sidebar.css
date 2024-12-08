@@ -4,18 +4,20 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #f0f4f9;
-  padding:25px 15px;
+  padding: 25px 15px;
 }
 
-.sidebar img{
+.sidebar img {
   width: 25px;
 
 }
+
 .sidebar .menu {
   display: block;
   margin-left: 10px;
   cursor: pointer;
 }
+
 .sidebar .new-chat {
   margin-top: 10px;
   display: inline-flex;
@@ -52,6 +54,7 @@
   color: #282828;
   cursor: pointer;
 }
+
 .sidebar .recent-entry:hover {
 
   background-color: #e2e6eb;
@@ -69,24 +72,27 @@
 }
 
 @media (max-width: 600px) {
-  .sidebar{
-    
+  
+  .sidebar {
+    display: none;
+    width: min-content;
+
+
     background-color: #ffffff;
-    .new-chat{
+
+    .new-chat {
       display: none
     }
-    .bottom-item{
+
+    .bottom-item {
       display: none;
     }
 
 
 
-    }
-   
-
-    
-        
   }
 
 
-  
+
+
+}
