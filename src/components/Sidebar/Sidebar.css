@@ -70,6 +70,7 @@
 
 @media (max-width: 600px) {
   .sidebar{
+    
     background-color: #ffffff;
     .new-chat{
       display: none

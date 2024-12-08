@@ -187,6 +187,9 @@
   .main-bottom {
     padding: 0px 10px;
   }
+  .card {
+    display: none;
+  }
 
  
   
